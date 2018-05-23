@@ -49,7 +49,7 @@ class="img-fluid">
 <div class="row">
     <div class="col">
                <h3>MAIN CHARACTERS</h3>
-                <p>The next visualization shows how many times these five characters appear through the season.</p>
+                <p>The next visualization shows in how many episodes these six characters appear through the season.</p>
                <div id="here" class="my-4"></div>
     </div>
 </div>
