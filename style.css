@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: #141414;
+}
+
+img {
+    border-radius: 5%;
+}
+
+figure img{
+  width: 100%;
+  height:auto;
+  filter: grayscale(0%);
+}
+
+figure img:hover{
+  width: 100%;
+  height:auto;
+  filter: grayscale(70%);
+}
+
+figcaption{
+  font-size:16px;
+  color: white ;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #ff9d00;
+  font-family: 'Marcellus SC', serif;
+}
+
+a:hover {
+  color: white;
+  transition: ease-out 1s;
+}
+
+p {
+  font-size:16px;
+  color: white ;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  color: orange ;
+  font-style: bold;
+  text-align: left;
+  font-family: 'Marcellus SC', serif;
+}
+
+h2 {
+  color: #ff9d00 ;
+  font-weight: 700;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+  color: #ff9d00 ;
+  font-style: bold;
+  font-family: 'Marcellus SC', serif;
+}
+
+h4 {
+  color: #ff9d00;
+  font-style: bold;
+  font-family: 'Marcellus SC', serif;
+}
+
+h5 {
+  font-family: 'Marcellus SC', serif;
+  font-style: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #ff5000;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+main.container{
+  padding-top:100px;
+  padding-bottom:60px;
+}
